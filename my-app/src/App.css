@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(50, 86, 139);
+  
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+input, label, select {
+  margin-top: 10px;
+  font-size: 20px;
+  
+}
+
+input{
+  border: 1.5px solid rgb(243, 180, 5);
+  background-color: rgb(5, 22, 75);
+  border-radius: 5px;
+  height: 34px;
+  width: 40%;
+  color: rgb(167, 178, 224);
+}
+
+select{
+  border: 2px solid rgb(5, 22, 75);
+  background-color: rgb(5, 22, 75);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(243, 180, 5);
+  letter-spacing: 1.5px;
+  height: 40px;
+}
+
+label{
+  color: rgb(167, 178, 224);
+}
+
+h1{
+  color: rgb(214, 162, 18);
+}
